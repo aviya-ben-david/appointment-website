@@ -1,7 +1,7 @@
 function BookingButton(){
     return (
     <button>
-        קביעת תור
+        לקביעת תור
     </button>
     )
 }
