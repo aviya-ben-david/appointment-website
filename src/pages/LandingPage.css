@@ -1,0 +1,54 @@
+.landing-page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding-top: 60px;
+}
+
+.landing-page::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: rgba(255, 255, 255, 0.20);
+
+    z-index: 2;
+}
+
+.landing-content {
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.landing-content h1 {
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.landing-content button {
+    font-size: 22px;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.25);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.landing-content button:hover {
+    background: rgba(255, 255, 255, 0.45);
+}

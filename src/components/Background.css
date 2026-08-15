@@ -1,0 +1,28 @@
+.background-blur {
+    position: absolute;
+    inset: -30px;
+
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(20px);
+    transform: scale(1.1);
+
+    z-index: 0;
+}
+
+.background-image {
+    position: absolute;
+    inset: 0;
+
+    background-image: url('../assets/background.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(10px);
+    transform: scale(1.01);
+
+    z-index: 1;
+}
