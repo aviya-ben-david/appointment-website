@@ -8,8 +8,9 @@ function App() {
         <div className="home-page">
         <Background/>
             <div className="content">
-                <h1>ברוכים הבאים למערכת לקביעת תורים</h1>
+                <h1>מערכת לקביעת תורים</h1>
                 <BookingButton />
+                <button>מחירון</button>
             </div>
 
         </div>
