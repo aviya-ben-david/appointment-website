@@ -1,0 +1,14 @@
+.carousel {
+    display: flex;
+    gap: 2vw;
+    width: 80vw;
+    max-width: 1200px;
+    margin-top: 4vh;
+}
+
+.carousel img {
+    width: 50%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}

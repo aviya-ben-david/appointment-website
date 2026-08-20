@@ -10,24 +10,32 @@
     align-items: center;
     text-align: center;
 
-    padding-top: 60px;
+    padding-top: 8vh;
+    box-sizing: border-box;
 }
 
 .landing-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 5vh;
 }
 
 .landing-content h1 {
-    font-size: 50px;
+    font-size: clamp(32px, 4vw, 50px);
     color: white;
     -webkit-text-stroke: 1.5px black;
 }
 
+.landing-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(15px, 8vh, 80px);
+}
+
 .landing-content button {
-    font-size: 22px;
+    font-size: clamp(18px, 2vw, 22px);
     padding: 10px 30px;
     border-radius: 10px;
 
